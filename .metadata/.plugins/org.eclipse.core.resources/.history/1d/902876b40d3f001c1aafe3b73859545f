@@ -1,0 +1,25 @@
+package program;
+
+import java.util.Scanner;
+
+import entities.Studant;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Studant vagabundo;
+		vagabundo = new Studant();
+		
+		System.out.println("Type a studant data: ");
+		System.out.println("Name: ");
+		vagabundo.name = sc.next();
+		
+		
+		sc.close();
+
+	}
+
+}

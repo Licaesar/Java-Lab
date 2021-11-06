@@ -1,0 +1,20 @@
+package entities;
+
+public class Retangulo {
+	public double width;
+	public double height;
+	
+	public double Area() {
+		
+	}
+	
+	public double Perimeter() {
+		
+	}
+	
+	public double diagonal() {
+		
+	}
+	
+
+}

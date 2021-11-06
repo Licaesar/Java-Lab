@@ -1,0 +1,45 @@
+package Program;
+
+import java.util.Scanner;
+
+import Entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int dec;
+		
+		Product x;
+		x = new Product();
+		
+		System.out.println("Digite o nome do produto: ");
+		x.name = sc.next();
+		System.out.println("Digite o preço do produto: ");
+		x.price = sc.nextDouble();
+		System.out.println("Digite a quantidade do produto: ");
+		x.quantity = sc.nextInt();
+		
+		System.out.println("Product data: " + x.name + ", $" + x.price + ", " + x.quantity + " units, Total: $" + x.totalValueInStock());
+		System.out.println("Você quer atualizar os dados do produto? ");
+		System.out.println("1 - SIM");
+		System.out.println("2 - NÃO");
+		dec = sc.nextInt();
+		
+		if (dec == 1) {
+			System.out.println("Você quer adicionar ou remover a quantidade do produto?");
+			System.out.println("1 - ADICIONAR");
+			System.out.println("2 - REMOVER");
+			if (condition) {
+				
+			}
+			
+		}
+		
+		
+		sc.close();
+
+	}
+
+}

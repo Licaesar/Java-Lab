@@ -1,0 +1,12 @@
+package program;
+
+public class Program {
+
+	public static void main(String[] args) {
+		public String name;
+		public double grossSalary;
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package program;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double x, y;
+		
+		System.out.println("Enter rectangle width and hight: ");
+		x = sc.nextDouble();
+		y = sc.nextDouble();
+		
+		
+		sc.close();
+
+	}
+
+}

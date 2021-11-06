@@ -1,0 +1,25 @@
+package program;
+
+import java.util.Scanner;
+
+import entities.Retangulo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Rentagunlo retangulo;
+		
+		System.out.println("Enter rectangle width and hight: ");
+		
+		System.out.println("AREA = ");
+		System.out.println("PERIMETER = ");
+		System.out.println("DIAGONAL = ");
+		
+		
+		sc.close();
+
+	}
+
+}
