@@ -1,8 +1,0 @@
-package Entities;
-
-public class Product {
-	
-	public String Name;
-	public double Price;
-
-}

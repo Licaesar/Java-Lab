@@ -1,7 +1,0 @@
-package Entities;
-
-public class Product {
-	
-	public String name;
-
-}
