@@ -9,9 +9,9 @@ public class Program {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Digite um valor: ");
-		double raio = input.nextDouble();
+		double diametro = input.nextDouble();
 		
-		Circulo bolinha = new Circulo(raio);
+		Circulo bolinha = new Circulo(diametro);
 		
 		System.out.println(bolinha);
 		
