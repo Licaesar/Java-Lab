@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/licaesar/Workspace/eclipse-workspace/Arrays_2"/>
 			<item value="/home/licaesar/Downloads/fileira 1"/>
 			<item value="/home/licaesar/Workspace/eclipse-workspace/fileira 1"/>
 			<item value="/home/licaesar/Workspace/eclipse-workspace/fileira 2"/>
